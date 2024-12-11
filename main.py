@@ -6,9 +6,6 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from hashlib import sha256
 
-from dotenv import load_dotenv
-load_dotenv()
-
 FLIC_TOKEN = "flic_23fa225b1cdfeef1b05f01e48bb3f24f190bbaba37cfbf61b897d4e5b5097ce6"
 BASE_API_URL = "https://api.socialverseapp.com"
 
