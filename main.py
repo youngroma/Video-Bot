@@ -7,7 +7,7 @@ from watchdog.events import FileSystemEventHandler
 from hashlib import sha256
 
 # Token for accessing the API
-FLIC_TOKEN = "flic_23fa225b1cdfeef1b05f01e48bb3f24f190bbaba37cfbf61b897d4e5b5097ce6"
+FLIC_TOKEN = "your_token"
 
 # Base URL for the API endpoints
 BASE_API_URL = "https://api.socialverseapp.com"
